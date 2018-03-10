@@ -1,0 +1,188 @@
+
+ul{
+	list-style:none;
+	padding:0;
+}
+#wrapper{
+	background-color:#eee;
+}
+.banner{
+	height:70px;
+	padding:10px 15px;
+	background-color:#454545;
+	color:#fff;
+}
+#left-side{
+	/*width:248px;*/
+	height:573px;
+	float:left;
+	border-right:1px solid #eeeeee;
+}
+#list{
+	padding:0;
+}
+#user-list{
+	height:389px;
+	overflow:auto;
+}
+.user{
+	/*width:357px;*/
+	height:72px;
+	padding:10px 15px;
+	border-bottom:1px solid #ddd;
+}
+#right-side{
+	float:left;
+		
+}
+#frameWork{
+	padding:0 10px;
+	background-color:#fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+#msgOutput{
+	
+	height:400px;
+	overflow:auto;
+	font-size:14px;
+	text-indent:10px;
+}
+#msgOutput .content_left{
+	margin-top:10px;
+	float:left;
+	width:400px;
+}
+#msgOutput .content_left .avater{
+	float:left;
+	padding-left:10px;
+
+}
+#msgOutput .content_left .plain{
+	text-align:left;
+	margin-left:70px;
+}
+#msgOutput .content_left .plain .name{
+	/*float:left;*/
+	
+	/*text-indent:10px;*/
+}
+#msgOutput .content_left .plain .msg{
+	float:left;
+	line-height:27px;
+	padding:10px 10px 10px 0;
+	background-color:#A6D4F2;
+	border-radius:7px;
+
+}
+#msgOutput .content_left .plain .canvas{
+	float:left;
+	line-height:27px;
+	border:10px solid #A6D4F2;
+	text-indent:0;
+	background-color:#fff;
+	border-radius:7px;
+
+}
+#msgOutput .content_right{
+	margin-top:10px;
+	float:right;
+	width:400px;
+}
+#msgOutput .content_right .avater{
+	float:right;
+	padding-right:10px;
+}
+#msgOutput .content_right .plain{
+	text-align:right;
+	margin-right:70px;
+}
+#msgOutput .content_right .plain .name{
+	/*float:right;*/
+	text-align:right;
+}
+#msgOutput .content_right .plain .msg{
+	float:right;
+	line-height:27px;
+	color:#fff;
+	padding:10px 10px 10px 0;
+	background-color:#009BDB;
+	border-radius:7px;
+}
+#msgOutput .content_right .plain .canvas{
+	float:right;
+	line-height:27px;
+	color:#fff;
+	border:10px solid #009BDB;
+	text-indent:0;
+	background-color:#fff;
+	border-radius:7px;
+}
+.systemMsg{
+	/*width:448px;*/
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #eeeeee;
+}
+#items{
+	/*width:450px;*/
+	height:50px;
+	line-height:50px;
+	border-top:1px solid #eeeeee;
+	text-indent:10px;
+
+}
+#emojiWrapper{
+	width:480px;
+	height:120px;
+	line-height:40px;
+	position:absolute;
+	top:280px;
+	background-color:#eee;
+	padding:10px 15px;
+	border-radius:20px;
+	display:none;
+}
+#emojiWrapper img{
+	float:left;
+	width:32px;
+	height:32px;
+	/*border-right:1px solid #666;
+	border-bottom:1px solid #666;*/
+	cursor:pointer;
+}
+#tutorial{
+	border:10px solid #ddd;
+	border-radius:20px;
+	position:absolute;
+	background-color:#fff;
+	left:150px;
+	top:80px;
+	display:none;
+}
+#choose{
+	margin:0 10px;
+}
+#emoji{
+	margin:0 10px;
+}
+#sendBtn{
+	margin:5px 0 10px 0;
+}
+@media(min-width:768px){
+	#user-list{
+		height:389px;
+		overflow:auto;
+	}
+}
+@media(min-width:992px){
+	#user-list{
+		height:410px;
+		overflow:auto;
+	}
+}
+@media(min-width:1200px){
+	#user-list{
+		height:410px;
+		overflow:auto;
+	}
+}

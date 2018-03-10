@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="vendor/jquery/dist/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		body{
+			background-color:#eee;
+		}
+		form{
+			position:absolute;
+			left:50%;
+			top:50%;
+			margin:-150px 0 0 -200px;
+			width:400px;
+			height:150px;
+			padding:20px;
+			background-color:#fff;
+			border:1px solid #666;
+		}
+	</style>
+	<title>node聊天室</title>
+</head>
+<body>
+	<form action=""></form>
+	<form action="/doLogin" method="POST">
+	  <div class="form-group">
+	    <label for="nickname">请选择昵称</label>
+	    <input class="form-control" id="nickname" name="nickname">
+	  </div>
+	  <button type="submit" class="btn btn-primary">进入聊天室</button>
+	</form>
+	
+<script>
+	
+</script>
+</body>
+</html>
