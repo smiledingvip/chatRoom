@@ -1,5 +1,5 @@
 # chatRoom ![npm](https://img.shields.io/npm/v/npm.svg) ![node (scoped)](https://img.shields.io/node/v/@stdlib/stdlib.svg)
-基于[NodeJs]、(http://nodejs.cn/)`WebSocket`、`Bootstrap`开发的一款web聊天室
+基于[NodeJs](http://nodejs.cn/)、`WebSocket`、`Bootstrap`开发的一款web聊天室
 ## 功能
 * 登录页面与聊天页面独立
 * 多人同时在线
