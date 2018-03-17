@@ -10,4 +10,4 @@
 ## 使用
     $ git clone https://github.com/smiledingvip/chatRoom
     $ npm install
-    $ node server.js```
+    $ node server.js
