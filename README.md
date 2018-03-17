@@ -8,5 +8,5 @@
 * HTML5 `canvas`你画我猜
 * emoji表情插入
 ## 使用
-```$ git clone https://github.com/smiledingvip/chatRoom <br>
-$ node server.js```
+    $ git clone https://github.com/smiledingvip/chatRoom
+    $ node server.js```
