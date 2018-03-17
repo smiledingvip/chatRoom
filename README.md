@@ -1,5 +1,5 @@
 # chatRoom
-基于`NodeJs`*WebSocket*`Bootstrap`开发的一款web聊天室
+基于[NodeJs](http://nodejs.cn/)`WebSocket`、`Bootstrap`开发的一款web聊天室
 ## 功能
 * 登录页面与聊天页面独立
 * 多人同时在线
@@ -9,4 +9,5 @@
 * emoji表情插入
 ## 使用
     $ git clone https://github.com/smiledingvip/chatRoom
+    $ npm install
     $ node server.js```
