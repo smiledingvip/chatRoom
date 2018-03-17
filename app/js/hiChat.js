@@ -134,12 +134,12 @@ hiChat.prototype = {		//原型函数
 		var container = document.getElementById('msgOutput'),
 			date = new Date().toTimeString().substr(0,8),
 			msgtype ='',
-			type='',
 			target ='';
 		if(type=='private'){
 			msgtype = '【私信】';
 			target = '对你';
 		};
+		alert(msg);
 		msg = this._showEmoji(msg);
 		if(msg.substring(5,6)=='s'){
 			type='canvas';

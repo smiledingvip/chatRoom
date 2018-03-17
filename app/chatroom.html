@@ -6,12 +6,12 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script src="js/hiChat.js"></script>
-	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	
 	<title>聊天室</title>
 </head>
 <body>
-	<div id="wrapper">
 		<div class="container">
 			<div class="banner">node聊天室</div>
 			<div class="row">
@@ -41,16 +41,16 @@
 							<div class="systemMsg"></div>
 						</div>
 						<div id="items">
-							对<select name="" id="choose">
+							<span>对</span><select name="" id="choose" class="form-control">
 								<option value="大家">大家</option>
-							</select>说
+							</select><span>说</span>
 							<input type="button" id="emoji" class="btn btn-default" value="表情"/>
 							<input type="button" id="draw" class="btn btn-default" value="画板"/>
 							<div id="emojiWrapper"></div>
 							<canvas id="tutorial" width="300" height="300">
 								
 							</canvas>
-							<a href="#"><span id="canvas_ok" class="glyphicon glyphicon-ok"></span></a>
+							<a href="#"><div id="canvas_ok" class="glyphicon glyphicon-ok"></div></a>
 						</div>
 						<textarea class="form-control" rows="3" placeholder="输入信息..."></textarea>
 						<button  id="sendBtn" class="btn btn-primary">发送</button>
@@ -58,7 +58,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 		
 	
 </body>

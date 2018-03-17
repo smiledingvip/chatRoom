@@ -3,8 +3,9 @@ ul{
 	list-style:none;
 	padding:0;
 }
-#wrapper{
+body{
 	background-color:#eee;
+	padding:40px 0;
 }
 .banner{
 	height:70px;
@@ -69,7 +70,7 @@ ul{
 #msgOutput .content_left .plain .msg{
 	float:left;
 	line-height:27px;
-	padding:10px 10px 10px 0;
+	padding:3px 10px 3px 0;
 	background-color:#A6D4F2;
 	border-radius:7px;
 
@@ -104,7 +105,7 @@ ul{
 	float:right;
 	line-height:27px;
 	color:#fff;
-	padding:10px 10px 10px 0;
+	padding:3px 10px 3px 0;
 	background-color:#009BDB;
 	border-radius:7px;
 }
@@ -130,6 +131,9 @@ ul{
 	border-top:1px solid #eeeeee;
 	text-indent:10px;
 
+}
+#items span{
+	float:left;
 }
 #emojiWrapper{
 	width:480px;
@@ -160,7 +164,9 @@ ul{
 	display:none;
 }
 #choose{
-	margin:0 10px;
+	margin:8px 0 8px 7px;
+	width:15%;
+	float:left;
 }
 #emoji{
 	margin:0 10px;
